@@ -25,7 +25,7 @@
   <div class="col-8 align-self-center">
         <div class="row d-flex align-items-end gx-0">
           <div class="col">
-            <h1>Jenny (Jiaying) Zhang</h1>
+            <h1>Jenny Zhang / 张嘉颖</h1>
           </div>
           <!-- <div class="col-4">
             <p class="text-muted">(she/her)</p>

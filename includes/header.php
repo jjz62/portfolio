@@ -1,6 +1,7 @@
 <nav class="navbar">
-<div class="container d-flex justify-content-between">
+<div class="container d-flex justify-content-between p-3">
     <a class="navbar-brand mb-0 h1 display-4" href="/">@zhangjiaying28 </a>
+    <span class="wave">👋 </span>
     <ul class="navbar-nav">
           <!-- <li class="nav-item active">
             <a class="nav-link" href="/">@zhangjiaying28</a>
