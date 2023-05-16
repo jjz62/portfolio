@@ -1,3 +1,4 @@
-/* #home > .row {
-
-} */
+.case:hover {
+    transform: translate3d(0px, -10px, 0px);
+    cursor: pointer;
+  }

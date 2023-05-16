@@ -45,9 +45,9 @@
 
 <section id="home">
 <div class="container">
-<div class="row">
-  <div class="col-8 gx-5">
-  <div class="bg-light pt-md-5 mr-5 text-center">
+<div class="row mb-5">
+  <div class="col-8 case gx-5">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover" onclick="location.href = '/';">
         <div class="p-3">
           <h1>Zing</h1>
           <p>Student grouping tool for professors and administrators</p>
@@ -55,13 +55,36 @@
         <img src="../public/uploads/home/zing-preview.png" style="width: 80%;">
       </div>
   </div>
-      <div class="col-4 bg-dark pt-md-5 text-center overflow-hidden text-white object-fit-cover">
+  <div class="col-4 case gx-5">
+      <div class="bg-dark pt-md-5 text-center overflow-hidden text-white object-fit-cover case" onclick="location.href = '/';">
         <div class="p-3">
           <h1>Topic Rooms</h1>
           <p>Potential Instagram feature design</p>
         </div>
         <img class="img-fluid" src="../public/uploads/home/ig-preview.png" style="width: 80%;">
       </div>
+  </div>
+</div>
+
+<div class="row">
+<div class="col-4 case gx-5">
+      <div class="bg-dark pt-md-5 text-center overflow-hidden text-white object-fit-cover case" onclick="location.href = '/';">
+        <div class="p-3">
+          <h1>Topic Rooms</h1>
+          <p>Potential Instagram feature design</p>
+        </div>
+        <img class="img-fluid" src="../public/uploads/home/ig-preview.png" style="width: 80%;">
+      </div>
+  </div>
+  <div class="col-8 case gx-5">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover" onclick="location.href = '/';">
+        <div class="p-3">
+          <h1>Zing</h1>
+          <p>Student grouping tool for professors and administrators</p>
+        </div>
+        <img src="../public/uploads/home/zing-preview.png" style="width: 80%;">
+      </div>
+  </div>
 </div>
 </div>
 </section>
