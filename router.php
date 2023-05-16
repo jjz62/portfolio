@@ -1,7 +1,9 @@
 <?php
 
 const ROUTES = array(
-  '/' => 'pages/home.php'
+  '/' => 'pages/home.php',
+  '/design' => 'pages/home.php',
+  '/design/clubview' => 'pages/clubview.php'
 );
 
 function match_static($uri)

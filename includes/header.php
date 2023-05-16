@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light px-5 mx-5 py-3 justify-content-between">
+<nav class="navbar navbar-expand-lg navbar-light px-5 mx-5 py-3 bg-white navbar-fixed-top justify-content-between">
         <a class="navbar-brand mb-0 h1 font-weight-bold" href="/">@zhangjiaying28 </a>
         <!-- <span class="wave">👋 </span> -->
     <ul class="navbar-nav">
@@ -13,7 +13,7 @@
             <li><a class="dropdown-item" href="#">Zing</a></li>
             <li><a class="dropdown-item" href="#">Topic Rooms</a></li>
             <li><a class="dropdown-item" href="#">Coachera</a></li>
-            <li><a class="dropdown-item" href="#">Clubview</a></li>
+            <li><a class="dropdown-item" href="/design/clubview">Clubview</a></li>
           </ul>
         </li>
           <li class="nav-item">

@@ -113,7 +113,7 @@
     </div>
     </div>
   <div class="col-8 case gx-5">
-  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/design/clubview';">
         <div class="p-3">
           <h2>Clubview</h2>
           <p>Student organization database for the Cornell community</p>
@@ -135,6 +135,10 @@
 </div>
 </div>
 </section>
+
+<?php
+  include('includes/footer2.php')
+?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <script>
