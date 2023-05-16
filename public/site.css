@@ -2,8 +2,12 @@
     transform: translate3d(0px, -20px, 0px);
     transition: 0.5s;
     transition-delay: 300ms;
-    cursor: pointer;
   }
+
+.shadow-box:hover {
+    filter: drop-shadow(0 0 0.4rem lightgrey);
+    cursor: pointer;
+}
 
   .wave {
     animation-name: wave-animation;
@@ -22,3 +26,20 @@
     50%{transform: rotate( 0.0deg);}
     100%{transform: rotate( 0.0deg);}
   }
+
+.active {
+    text-decoration: underline;
+    color: black;
+}
+
+.active .nav-link {
+    color: black;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 2rem;
+}

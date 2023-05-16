@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Jenny Zhang</title>
+  <script src="jquery/jquery.js"></script>
+  <script type="text/javascript" src='js/bootstrap.min.js'></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../public/site.css">
@@ -47,49 +49,99 @@
 <div class="container">
 <div class="row mb-5">
   <div class="col-8 case gx-5">
-  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover" onclick="location.href = '/';">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
         <div class="p-3">
-          <h1>Zing</h1>
+          <h2>Zing</h2>
           <p>Student grouping tool for professors and administrators</p>
         </div>
         <img src="../public/uploads/home/zing-preview.png" style="width: 80%;">
       </div>
+  <div class="container mt-4">
+  <div class="row">
+    <div class="col-1">
+      <img src="../public/uploads/home/dti-logo.svg" class="rounded-circle" style="width: 3rem;">
+    </div>
+    <div class="col gy-0">
+      <p class="mb-0 pb-0">Cornell Design and Tech Initiative</p>
+      <small class="text-muted">Fall 2022 - Spring 2023</small>
+    </div>
   </div>
+  </div>
+  </div>
+
   <div class="col-4 case gx-5">
-      <div class="bg-dark pt-md-5 text-center overflow-hidden text-white object-fit-cover case" onclick="location.href = '/';">
+      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
         <div class="p-3">
-          <h1>Topic Rooms</h1>
-          <p>Potential Instagram feature design</p>
+          <h2>Topic Rooms</h2>
+          <p>A potential Instagram feature</p>
         </div>
-        <img class="img-fluid" src="../public/uploads/home/ig-preview.png" style="width: 80%;">
+        <img class="img-fluid" src="../public/uploads/home/ig-preview.png" class="shadow" style="width: 80%;">
       </div>
+    <div class="container mt-4">
+      <div class="row">
+        <!-- <div class="col-2">
+          <img src="../public/uploads/home/dti-logo.svg" class="rounded-circle" style="width: 3rem;">
+        </div> -->
+        <div class="col gy-0">
+          <p class="mb-0 pb-0">Independent Case Study</p>
+          <small class="text-muted">Spring 2021</small>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="row">
-<div class="col-4 case gx-5">
-      <div class="bg-dark pt-md-5 text-center overflow-hidden text-white object-fit-cover case" onclick="location.href = '/';">
+<div class="row mb-5">
+  <div class="col-4 case gx-5">
+      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
         <div class="p-3">
-          <h1>Topic Rooms</h1>
-          <p>Potential Instagram feature design</p>
+          <h2>Coachera</h2>
+          <p>AI-Chatboat app to conduct research study</p>
         </div>
-        <img class="img-fluid" src="../public/uploads/home/ig-preview.png" style="width: 80%;">
+        <img class="img-fluid" src="../public/uploads/home/coachera-preview.png" class="shadow" style="width: 80%;">
       </div>
-  </div>
+      <div class="container mt-4">
+      <div class="row">
+        <div class="col-2">
+          <img src="../public/uploads/home/coachera-logo.png" class="rounded-circle" style="width: 3rem;">
+        </div>
+        <div class="col gy-0">
+          <p class="mb-0 pb-0">Cornell Future of Learning Lab</p>
+          <small class="text-muted">Summer 2022</small>
+        </div>
+      </div>
+    </div>
+    </div>
   <div class="col-8 case gx-5">
-  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover" onclick="location.href = '/';">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
         <div class="p-3">
-          <h1>Zing</h1>
-          <p>Student grouping tool for professors and administrators</p>
+          <h2>Clubview</h2>
+          <p>Student organization database for the Cornell community</p>
         </div>
-        <img src="../public/uploads/home/zing-preview.png" style="width: 80%;">
+        <img src="../public/uploads/home/clubview-preview.png" class="shadow" style="width: 80%;">
       </div>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-1">
+      <img src="../public/uploads/home/dti-logo.svg" class="rounded-circle" style="width: 3rem;">
+    </div>
+    <div class="col gy-0">
+      <p class="mb-0 pb-0">Cornell Design and Tech Initiative</p>
+      <small class="text-muted">Fall 2021 - Spring 2022</small>
+    </div>
+  </div>
+  </div>
   </div>
 </div>
 </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>
 </body>
 
 </html>
