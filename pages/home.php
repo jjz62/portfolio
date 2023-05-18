@@ -22,16 +22,18 @@
 <div class="container position-relative overflow-hidden pt-5 pb-5 mb-5">
   <div class="row gx-5 mx-auto">
   <div class="col-3">
-    <img src="../public/uploads/home/profile.jpeg" class="rounded-circle" style="width: 100%;" alt="Girl with black hair wearing scarf">
+    <div class="bg-image">
+      <img src="../public/uploads/home/profile.jpeg" class="rounded-circle w-100" alt="Girl with black hair wearing scarf">
+      <div class="mask d-flex justify-content-end">
+        <span class="wave bg-white rounded-circle">👋 </span>
+      </div>
+    </div>
   </div>
   <div class="col-8 align-self-center">
         <div class="row d-flex align-items-end gx-0">
           <div class="col">
             <h1>Jenny Zhang / 张嘉颖</h1>
           </div>
-          <!-- <div class="col-4">
-            <p class="text-muted">(she/her)</p>
-          </div> -->
         </div>
         <h5><small class="text-muted">Product Designer</small></h5>
         <p class="lead">I create impact through my values of empathy, simplicity, and consistency. Passionate about UX in public-facing products for social good + game design!</p>
