@@ -21,7 +21,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="contents pt-5">
+        <div class="contents pt-2">
             <nav id="navbar-cv" class="navbar navbar-light flex-column align-items-stretch p-3">
                 <h5 class="text-dark">Contents</h5>
                     <nav class="nav nav-pills flex-column mt-0 pt-0">
@@ -34,6 +34,14 @@
                                 <a class="nav-link ms-3 my-1" href="#item-4-2">High-Fi</a>
                                 <a class="nav-link ms-3 my-1" href="#item-4-3">Feature: Displaying Events</a>
                             </nav>
+                        <a class="nav-link" href="#item-5">Editing Club Page</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-5-1">Previous UI</a>
+                                <a class="nav-link ms-3 my-1" href="#item-5-2">New UI</a>
+                                <a class="nav-link ms-3 my-1" href="#item-5-3">Feature: Editing Events</a>
+                            </nav>
+                        <a class="nav-link" href="#item-6">Prototypes</a>
+                        <a class="nav-link" href="#item-7">Takeaways</a>
                     </nav>
             </nav>
         </div>
@@ -102,15 +110,15 @@
                 <div class="row pt-3">
                     <div class="col">
                         <h3 class="text-uppercase text-muted">Problem Space</h3>
-                        <h1 class="display-4 mt-5">Why ClubView?</h1>
-                        <div class="container pt-3 pb-5">
-                            <div class="row pt-3">
-                                    <img src="../public/uploads/clubview/problem-space-1.png" style="width: 50%;">
-                                    <img src="../public/uploads/clubview/problem-space-2.png" style="width: 50%;">
-                                    <img src="../public/uploads/clubview/problem-space-3.png" style="width: 50%;">
+                        <h1 class="lead mt-5">Why ClubView?</h1>
+                        <div class="container pt-3 pb-3">
+                            <div class="row pt-3 mx-auto d-block" style="width: 95%;">
+                                    <img src="../public/uploads/clubview/problem-space-1.png" style="width: 40%;">
+                                    <img src="../public/uploads/clubview/problem-space-2.png" style="width: 40%;">
+                                    <img src="../public/uploads/clubview/problem-space-3.png" style="width: 40%;">
                             </div>
                         </div>
-                        <h1 class="display-4 mt-5">Who can we help?</h1>
+                        <h1 class="lead mt-5">Who can we help?</h1>
                         <p class="pt-3 ">After acknowledging the common problem many students had at Cornell, we narrowed our target users into two distinctly defined user groups.</p>
                         <img src="../public/uploads/clubview/user-groups.png" class="mt-3" style="width: 100%;">
                     </div>
@@ -121,9 +129,9 @@
                 <div class="row pt-3">
                     <div class="col">
                         <h3 class="text-uppercase text-muted">User Research</h3>
-                        <h1 class="display-4 mt-5">We surveyed Cornell students and synthesized insights.</h1>
+                        <h1 class="lead mt-5">We surveyed Cornell students and synthesized insights.</h1>
                         <!-- <img src="../public/uploads/clubview/user-research.png" class="mt-3" style="width: 100%;"> -->
-                        <img src="../public/uploads/clubview/research-insights.png" class="mt-5 pt-2" style="width: 100%;">
+                        <img src="../public/uploads/clubview/research-insights.png" class="mt-5 pt-2 figure-img img-fluid w-75 mx-auto d-block" style="width: 100%;">
                         <p class="mt-5">From these research insights, we brainstormed features and decided on an MVP.</p>
                         <img src="../public/uploads/clubview/hierarchy.png" class="mt-5 mx-auto d-block" style="width: 50%;">
                     </div>
@@ -195,11 +203,84 @@
                 </div>
             </div>
 
-            <div class="container pl-0 ml-0 py-5 border-top" id="club-page">
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-5">
                 <div class="row pt-3">
                     <div class="col">
-                        <h3 class="text-uppercase text-muted">Club Page</h3>
-                        <h5 class="mt-5">Low-Fi and Mid-Fi Ideation</h5>
+                        <h3 class="text-uppercase text-muted">Page Editing</h3>
+                        <h5 class="mt-5" id="item-5-1">Previous Interface</h5>
+                        <p class="lead">Editing was first conceptualized so that users could edit directly on the page.<p>
+                        <figure class="figure my-2 pt-4">
+                            <img src="../public/uploads/clubview/old-editing-flow.png" class="figure-img img-fluid mx-auto d-block">
+                            <img src="../public/uploads/clubview/old-large.png" class="figure-img img-fluid mx-auto d-block">
+                            <figcaption class="figure-caption">Users would change to Editing Mode and select specific cards to edit so that they could visualize the page as a whole.</figcaption>
+                        </figure>
+                        <p class="lead mt-3 py-2">So, why change?<p>
+                        <p>While the benefits of in-page editing included better visualization and a similar UI to match viewing a page, we ultimately came to the conclusion to change how club owners edit.</p>
+                        <ul class="list-unstyled">
+                            <li><b>❌ Less Intuitive:</b> Understanding the format of editing is not as intuitive in comparison to typical practice for editing through a form, which could create confusion.</li>
+                            <li><b>❌ More Clicks:</b> Moving to edit small individual pieces of content such as links would require lots more clicks to move through and seperate screens, which would discourage users.</li>
+                            <li><b>❌ Prioritizng a Clear User Flow:</b> Accessing and exiting editing mode might not be clear due to the similarity between the page as a viewer and editor. Furthermore, actions to take aren't clear.</li>
+                        </ul>
+                        <h5 class="mt-5" id="item-5-2">New Interface</h5>
+                        <p>
+                        After rounds of iteration, I decided upon a seperate form with different sections for different pieces of content on the page broken down into 4 categories: Profile, Recruitment Banner, Description, and Events. To make a clear differentiation to viewing I used a complementary blue shade to distinguish editing actions.
+                        </p>
+                        <figure class="figure my-2 pt-4">
+                            <img src="../public/uploads/clubview/new-editing-flow.png" class="figure-img img-fluid mx-auto d-block">
+                            <img src="../public/uploads/clubview/editing-large.png" class="figure-img img-fluid mx-auto d-block">
+                            <figcaption class="figure-caption">Users enter the editing form through the menu and can move through the different sections to change information.</figcaption>
+                        </figure>
+                        <ul class="list-unstyled pt-3">
+                            <li><b>✅ Editable Information is Clear:</b> The form shows clear parameters for a user to edit to make features obvious.</li>
+                            <li><b>✅ Reduce Clicks:</b> The features are all organized into pages that make editing multiple parameters at once less of a hassle through less clicks.</li>
+                            <li><b>✅ More Intuitive:</b> Forms are common and have a low barrier of knowledge to interact with.</li>
+                        </ul>
+                        <h5 class="mt-5" id="item-5-2">Feature: Editing Pre-Existing Event</h5>
+                        <p>I iterated multiple options for editing specific content pieces.</p>
+                        <figure class="figure my-2 pt-4">
+                            <img src="../public/uploads/clubview/editing-events1.png" class="figure-img img-fluid mx-auto d-block">
+                            <figcaption class="figure-caption">Editing directly in the card</figcaption>
+                        </figure>
+                        <p class="pt-3">While this option reduced additional interactions on the screen, the entry point and interaction was not the most intuitive for users to understand. We instead tried familiar patterns employed in the Editing UX through a form.</p>
+                        <figure class="figure my-2 pt-4">
+                            <img src="../public/uploads/clubview/editing-events2.png" class="figure-img img-fluid mx-auto d-block">
+                            <figcaption class="figure-caption">Popup form below initial event card to edit without additional clicks outside of page.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-6">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h3 class="text-uppercase text-muted">Prototyping</h3>
+                        <p class="mt-3">I created many different prototypes of different actions users would take when editing the different parts of a club's page, with some included below.</p>
+                        <h5 class="my-2">Moving to Editing Mode</h5>
+                        <video class="mb-3" style="width: 100%;" controls>
+                            <source src="../public/uploads/clubview/cv-prototype1.mp4" type="video/mp4">
+                        </video>
+                        <h5 class="my-2">Generating the Recruitment Banner</h5>
+                        <video class="mb-3" style="width: 100%;" controls>
+                            <source src="../public/uploads/clubview/cv-prototype2.mp4" type="video/mp4">
+                        </video>
+                        <h5 class="my-2">Editing the Recruitment Banner</h5>
+                        <video class="mb-3" style="width: 100%;" controls>
+                            <source src="../public/uploads/clubview/cv-prototype3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-7">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h3 class="text-uppercase text-muted">Takeaways</h3>
+                        <h5 class="mt-4">Documentation is super important</h5>
+                        <p>Working with developers to implement features I created, as well as working with other designers, really emphasized the importance of good documentation for me. It made handoff and teamwork in general so much easier and allowed processes to flow much more smoothly.</p>
+                        <h5 class="mt-3">When I'm feeling stuck, outside input is the best medicine</h5>
+                        <p>Whenever I'd feel stuck in my designs, the best remedy was always outside input. When working on a design for so long its so easy to loose sight of easy and simple solutions as details get more convoluted, which is why outside help can sometimes be such a breath of fresh air. This experience taught me the importance of reaching out for help when I need it.</p>
+                        <h5 class="mt-3">Trust yourself</h5>
+                        <p>As a relatively new designer when first joining the team, it took me a long time to find my voice and advocate for my designs. The other designers I learned from emphasized the importance of trusting myself and being confident!</p>
                     </div>
                 </div>
             </div>
