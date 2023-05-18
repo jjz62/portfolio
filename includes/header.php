@@ -7,7 +7,7 @@
             Design
           </a>
           <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="/">Home</a></li>
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Work</h6>
             <li><a class="dropdown-item" href="#">Zing</a></li>
@@ -17,7 +17,7 @@
           </ul>
         </li>
           <li class="nav-item">
-            <a class="nav-link" href="/">About</a>
+            <a class="nav-link" href="/about">About</a>
           </li>
     </ul>
 </nav>

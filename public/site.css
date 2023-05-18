@@ -71,4 +71,37 @@
 
 .contents * {
     color: grey;
+    width: 17rem;
 }
+
+.scrollspy {
+    position: relative;
+    /* height: 300px; */
+    overflow: auto;
+}
+
+.nav-pills .nav-link.active {
+    border-left: 10px;
+    border-color: var(--bs-nav-pills-link-active-bg);
+    background-color: transparent;
+    color: grey;
+}
+
+#scrollToTopBtn {
+    background-color: white;
+    filter: drop-shadow(0 0.25rem 0.25rem rgba(0, 0, 0, 0.3));
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 48px;
+    width: 48px;
+  }
+
+  #scrollToTopBtn:hover {
+    background-color: black;
+  }

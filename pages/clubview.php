@@ -41,7 +41,7 @@
         <div class="col-3">
         </div>
 
-        <div data-spy="scroll" data-target="#navbar-cv" data-offset="0" tabindex="0" class="col-9 position-relative">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-cv" data-bs-offset="0" tabindex="0" class="col-9 scrollspy">
             <div class="bg-light py-md-4 mr-5 text-center overflow-hidden object-fit-cover" id="item-1">
                 <img src="../public/uploads/home/clubview-preview.png" class="shadow" style="width: 70%;">
             </div>
@@ -210,13 +210,27 @@
 
         </div>
     </div>
+
+    <!-- <button id="scrollToTopBtn">☝️</button> -->
+
 </div>
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<script src="scrolltotop.js"></script>
 <script>
-var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-  target: '#navbar-example'
-})</script>
+  $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>
+<script>
+    $(document).ready(function(){
+            $('[data-spy="scroll"]').each(function () {
+                var $spy = $(this).scrollspy('refresh')
+                });
+        });
+
+</script>
 
 </html>

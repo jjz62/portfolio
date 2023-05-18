@@ -3,7 +3,8 @@
 const ROUTES = array(
   '/' => 'pages/home.php',
   '/design' => 'pages/home.php',
-  '/design/clubview' => 'pages/clubview.php'
+  '/design/clubview' => 'pages/clubview.php',
+  '/about' => 'pages/about.php'
 );
 
 function match_static($uri)
