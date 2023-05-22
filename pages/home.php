@@ -73,7 +73,7 @@
   </div>
 
   <div class="col-4 case gx-5">
-      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
+      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/design/topic-rooms';">
         <div class="p-3">
           <h2>Topic Rooms</h2>
           <p>A potential Instagram feature</p>
