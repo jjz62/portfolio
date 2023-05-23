@@ -5,7 +5,8 @@ const ROUTES = array(
   '/design' => 'pages/home.php',
   '/design/clubview' => 'pages/clubview.php',
   '/about' => 'pages/about.php',
-  '/design/topic-rooms' => 'pages/topic-rooms.php'
+  '/design/topic-rooms' => 'pages/topic-rooms.php',
+  '/design/coachera' => 'pages/coachera.php'
 );
 
 function match_static($uri)

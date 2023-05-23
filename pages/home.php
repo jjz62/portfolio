@@ -96,7 +96,7 @@
 
 <div class="row mb-5">
   <div class="col-4 case gx-5">
-      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
+      <div class="bg-light pt-md-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/design/coachera';">
         <div class="p-3">
           <h2>Coachera</h2>
           <p>AI-Chatboat app to conduct research study</p>
