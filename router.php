@@ -1,8 +1,8 @@
 <?php
 
 const ROUTES = array(
-  '/' => 'pages/home.php',
-  '/design' => 'pages/home.php',
+  '/' => 'pages/index.php',
+  '/design' => 'pages/index.php',
   '/design/clubview' => 'pages/clubview.php',
   '/about' => 'pages/about.php',
   '/design/topic-rooms' => 'pages/topic-rooms.php',
