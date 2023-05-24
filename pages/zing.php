@@ -27,12 +27,11 @@
                 <!-- <h5 class="text-dark">Contents</h5> -->
                     <nav class="nav nav-pills flex-column mt-0 pt-0">
                         <a class="nav-link" href="#item-1">Introduction</a>
-                        <a class="nav-link" href="#item-2">Background</a>
-                        <a class="nav-link" href="#item-3">User Research</a>
-                        <a class="nav-link" href="#item-4">Problem Statement</a>
-                        <a class="nav-link" href="#item-5">Brainstorming</a>
-                        <a class="nav-link" href="#item-6">High-Fi Ideation</a>
-                        <a class="nav-link" href="#item-7">Final Prototype</a>
+                        <a class="nav-link" href="#item-2">Problem</a>
+                        <a class="nav-link" href="#item-3">Metrics Feature (LSC)</a>
+                        <a class="nav-link" href="#item-4">Handoff Documentation (LSC)</a>
+                        <a class="nav-link" href="#item-5">User Research</a>
+                        <a class="nav-link" href="#item-6">Course Archive Feature (Grouper)</a>
                         <a class="nav-link" href="#item-7">Takeaways</a>
                     </nav>
             </nav>
@@ -66,9 +65,8 @@
                     <div class="col-2">
                         <h6>Team</h6>
                         <ul class="list-unstyled">
-                            <li>1 Product Manager</li>
-                            <li>1 Assistant Product Manager</li>
-                            <li>2 Technical Product Managers</li>
+                            <li>2 PMs</li>
+                            <li>2 TPMs</li>
                             <li>5 Developers</li>
                             <li>2 Designers</li>
                         </ul>
@@ -128,7 +126,9 @@
                 <div class="row pt-3">
                     <div class="col">
                         <h3 class="text-uppercase text-muted">Metrics Feature (LSC)</h3>
-                        <h5 class="mt-5">User Group 👤</h5><p> Learning Strategies Center (LSC) Administrators</p>
+                        <h5 class="mt-5">Overview</h5>
+                        <p>Stakeholders requested for a Metrics feature to help them understand student use of the Study Partners program!</p>
+                        <h5>User Group 👤</h5><p> Learning Strategies Center (LSC) Administrators</p>
                         <h5>User Needs 🗣</h5>
                         <ul class="mt-0">
                             <li>Need to know how many students, courses, requests, matches in total, as well as by college and school year.</li>
@@ -178,9 +178,9 @@
                         <h5 class="mt-5">High-Fi Entry Points</h5>
                         <p>Having chosen the type of entry point, it was time to decide on the style of the entry point itself...</p>
                         <img src="../public/uploads/zing/entry-hi-fi.png" class="my-5 mx-auto d-block w-75">
-                        <div class="row align-items-top">
+                        <div class="row align-items-top pt-3">
                                 <div class="col-6">
-                                    <h6 class="text-success mt-3">C. Admin dropdown menu ✅</h6>
+                                    <h6 class="text-success">C. Admin dropdown menu ✅</h6>
                                     <p class="mb-0">Pros:</p>
                                     <ul>
                                         <li>Feature is grouped with other admin features</li>
@@ -199,9 +199,9 @@
 
                         <h5 class="mt-5">Displaying Numbers</h5>
                         <img src="../public/uploads/zing/number-display.png" class="my-5 mx-auto d-block w-75">
-                        <div class="row align-items-top">
+                        <div class="row align-items-to pt-3">
                                 <div class="col-6">
-                                    <h6 class="text-success mt-3">A. Seperate Cards ✅</h6>
+                                    <h6 class="text-success">A. Seperate Cards ✅</h6>
                                     <p class="mb-0">Pros:</p>
                                     <ul>
                                         <li>Visual similarity to card style of dashboard</li>
@@ -221,19 +221,141 @@
                         <h5 class="mt-5">Metrics: Final Screen</h5>
                         <p>The metrics feature had final touches completed during high-fi iteration and was handed off and implemented to developers!</p>
                         <img src="../public/uploads/zing/metrics-final.png" class="mt-2 mx-auto d-block w-100">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-4">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h3 class="text-uppercase text-muted">Handoff and Documentation (LSC)</h3>
+                        <p class="mt-5">With LSC mostly finished, there were a few features to create designs for and handoff to programmers, which required thorough documentation.</p>
+                        <h5 class="mt-5">Settings</h5>
+                        <figure class="figure pt-4">
+                            <img src="../public/uploads/zing/adding-admin-1.png" class="mb-0 figure-img img-fluid w-45 mx-auto d-block">
+                            <img src="../public/uploads/zing/adding-admin-2.png" class="mt-0 figure-img img-fluid w-45 mx-auto d-block">
+                            <figcaption class="figure-caption">The flow for adding an administrator documented.</figcaption>
+                        </figure>
 
 
                     </div>
                 </div>
             </div>
 
-            <div class="container pl-0 ml-0 py-5 border-top" id="item-8">
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-5">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h3 class="text-uppercase text-muted">User Research (Grouper)</h3>
+                        <p class="mt-5">We conducted user testing with the V1 prototypes of Grouper and learned a lot...</p>
+                        <img src="../public/uploads/zing/insights-solutions.png" class="py-2 mx-auto d-block w-75">
+                        <p class="pt-5">From these ideas, we coalesced all our thoughts into sticky notes and evaluated brainstormed features by impact and feasibility to arrive at our MVP.</p>
+                        <img src="../public/uploads/zing/mvp-features.png" class="mx-auto d-block w-100">
+                        <figure class="figure pt-4">
+                            <h6>Information Hierarchy</h6>
+                            <img src="../public/uploads/zing/info-hierarchy.png" class="figure-img img-fluid w-75 mx-auto d-block">
+                            <figcaption class="figure-caption">We developed our information hierarchy from features specified in our MVP.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-6">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h3 class="text-uppercase text-muted">Course Archive (Grouper)</h3>
+                        <h5 class="mt-5">Overview</h5>
+                        <p>Out of the MVP, I decided to focus on the Course Archive feature to help professors access previously added classes.</p>
+                        <h5>User Group 👤</h5>
+                        <p> Professors for courses</p>
+                        <h5>User Needs 🗣</h5>
+                        <ul class="mt-0">
+                            <li>View previous courses.</li>
+                            <li>Add previous courses into the current semester.</li>
+                        </ul>
+
+                        <h5 class="mt-5">Viewing Archived Courses</h5>
+                        <img src="../public/uploads/zing/viewing-archived.png" class="py-2 mx-auto d-block w-75">
+                        <div class="row align-items-top pt-3">
+                                <div class="col-6">
+                                    <h6 class="text-success">1. Archived Courses Grouped by Semester ✅</h6>
+                                    <p class="mb-0">Pros:</p>
+                                    <ul>
+                                        <li>More organized</li>
+                                        <li>Less daunting</li>
+                                    </ul>
+                                    <p class="mb-0">Cons:</p>
+                                    <ul>
+                                        <li>More scrolling</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <img src="../public/uploads/zing/grouped-sem.png" style="width: 50%;">
+                                </div>
+                        </div>
+
+                        <h5 class="mt-5">Grouped by Semester > Entry Point</h5>
+                        <img src="../public/uploads/zing/grouped-sem-options.png" class="py-2 mx-auto d-block w-75">
+                        <div class="row align-items-top pt-3">
+                                <div class="col-6">
+                                    <h6 class="text-success">B. Archive Menu Item ✅</h6>
+                                    <p>Archive in the menu is fitting due to similar features also being grouped as menu items (statistics, settings, etc.) without being too intrusive, as Archived Courses wouldn’t be viewed especially often.
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="../public/uploads/zing/archive-menu-item.png" style="width: 100%;">
+                                </div>
+                        </div>
+
+                        <h5 class="mt-5">Adding Course to Current Semester from Archive</h5>
+                        <img src="../public/uploads/zing/adding-course.png" class="py-2 mx-auto d-block w-75">
+                        <div class="row align-items-top pt-3">
+                                <div class="col-6">
+                                    <h6 class="text-success">1. Same Add Button (New and Existing) ✅</h6>
+                                    <p class="mb-0">Pros:</p>
+                                    <ul>
+                                        <li>Groups similar actions to be less confusing</li>
+                                        <li>User wouldn’t differentiate between the two actions when looking for entry point</li>
+                                    </ul>
+                                    <p class="mb-0">Cons:</p>
+                                    <ul>
+                                        <li>Copy between inside modal and different flows if existing in comparison to new need to be extremely clear</li>
+                                        <li>More dense</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <img src="../public/uploads/zing/same-button.png" style="width: 100%;">
+                                </div>
+                        </div>
+
+                        <h5 class="mt-5">Add Course Button - Final Prototype</h5>
+                        <img src="../public/uploads/zing/add-button.gif" class="pt-2 shadow mx-auto d-block w-50">
+
+                        <h5 class="mt-5 display-3">✋ Pause...</h5>
+                        <h5 class="lead">As we were designing, we continued to conduct user research...</h5>
+                        <p>We noticed how low professor interest was in Grouper and began to think on why professors would be so reluctant to utilize such a product, leading to two primary questions:</p>
+
+                        <h3 class="pt-1">What is the need for Grouper?</h3>
+                        <p>As we talked with professors, we realized that grouping students, while annoying, was also a process they were willing and wanted to take an active part in, even though time-consuming.</p>
+
+                        <h3 class="pt-3">Is there enough stakeholder interest to make Grouper viable?</h3>
+                        <p>Given professor reluctance and the individuality of the way professors create groups depending on their classes, is this a problem space the product can truly be impactful with?</p>
+
+                        <h5 class="lead pt-3">After much brainstorming and discussion centering around how impactful our efforts could be, we decided that Grouper would not be moved forward with.</h5>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pl-0 ml-0 py-5 border-top" id="item-7">
                 <div class="row pt-3">
                     <div class="col">
                         <h3 class="text-uppercase text-muted">Takeaways</h3>
-                        <p class="lead mt-3">My first case study...</p>
-                        <p class="mt-3">Instagram is a fun and enjoyable platform, but it’s also scary at times. Topic Rooms are a fun and innovative approach to making Instagram a less intimidating and more meaningful place to interact with others. Next steps for Topic Rooms could be the creation and choice between Private and Public Topic Rooms to give the user even more of a chance for customizability.</p>
-                        <p>For a first time creating a case study, the experience was fun yet challenging. I was constantly reminded how little I truly knew as I explored different solution spaces and thought through the problem. The opportunity to immerse myself into the design cycle without pre-existing notions of a solution allowed me to tap into my creativity and problem-solving to create an organic solution!</p>
+                        <p class="lead mt-3">Learning to step in...</p>
+                        <p class="mt-3">I came onto the team when the product had already been established, which forced me to gain familiarity with an entirely new product. Maybe my biggest takeaway was learning when to question previous designs and always be ready to do better to create the great final LSC that has already been implemented and entirely handed off to our stakeholders.</p>
+
+                        <p class="lead mt-3">And learning to let go...</p>
+                        <p class="mt-3">Especially given the super talented Zing team, we realized that we wanted to create a product that would truly be meaningful and have an impact in our community. After realizing that Grouper would unfortunately not meet those hopes, we decided to let the product go.</p>
                     </div>
                 </div>
             </div>
