@@ -39,7 +39,7 @@
         <h5><small class="text-muted">Product Designer</small></h5>
         <p class="lead">I create impact through my values of empathy, simplicity, and consistency. Passionate about UX in public-facing products for social good + game design!</p>
         <p class="lead">
-          Learning ✍️ + Designing 🎨 <a href="https://cis.cornell.edu/" class="text-decoration-none">@cornelluniversity</a>. Incoming UX Design Intern <a href="https://www.capitalone.com/" class="text-decoration-none">@capitalone</a>.
+          Learning ✍️ + Designing 🎨 <a href="https://cis.cornell.edu/" class="text-decoration-none">@cornelluniversity</a> and <a href="https://www.capitalone.com/" class="text-decoration-none">@capitalone</a>.
         </p>
         <p class="lead">
           <a href="/" class="text-decoration-none"><i class="bi bi-link-45deg"></i> Resume</a>
@@ -52,7 +52,7 @@
 <div class="container">
 <div class="row mb-5">
   <div class="col-8 case gx-5">
-  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/';">
+  <div class="bg-light pt-md-5 mr-5 text-center overflow-hidden object-fit-cover shadow-box" onclick="location.href = '/design/zing';">
         <div class="p-3">
           <h2>Zing</h2>
           <p>Student grouping tool for professors and administrators</p>
