@@ -10,9 +10,9 @@
             <li><a class="dropdown-item" href="/">Home</a></li>
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Work</h6>
-            <li><a class="dropdown-item" href="#">Zing</a></li>
-            <li><a class="dropdown-item" href="#">Topic Rooms</a></li>
-            <li><a class="dropdown-item" href="#">Coachera</a></li>
+            <li><a class="dropdown-item" href="/design/zing">Zing</a></li>
+            <li><a class="dropdown-item" href="/design/topic-rooms">Topic Rooms</a></li>
+            <li><a class="dropdown-item" href="/design/coachera">Coachera</a></li>
             <li><a class="dropdown-item" href="/design/clubview">Clubview</a></li>
           </ul>
         </li>

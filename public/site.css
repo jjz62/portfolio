@@ -85,6 +85,7 @@
     border-color: var(--bs-nav-pills-link-active-bg);
     background-color: transparent;
     color: grey;
+    text-decoration: none;
 }
 
 #scrollToTopBtn {
